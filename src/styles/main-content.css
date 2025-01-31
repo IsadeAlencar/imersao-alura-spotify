@@ -1,0 +1,143 @@
+.main-container {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 320px - 56px);
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+    padding: 12px 8px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background: linear-gradient(160deg, rgba(107, 32, 107, 0.5), rgba(78, 0, 52, 0.13));
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--neutral-white);
+    background-color: transparent;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.arrow-left:hover, .arrow-right:hover {
+    background-color: var( --primary-9-buttons);
+    color: var(--neutral-white);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.header__login-subscribe {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 48px;
+    margin-left: 8px;
+    background-color: var(--primary-2-background);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search .ph-magnifying-glass {
+    font-size: 20px;
+    padding: 16px;
+    color: var(--neutral-gray-9);
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: var(--neutral-white);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header__login-subscribe .subscribe {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    color: var(--neutral-gray-9);
+    background-color: transparent;
+    border-radius: 24px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 24px;
+    width: auto;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.header__login-subscribe .subscribe:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.header__login-subscribe .login {
+    display: flex;
+    justify-content: center;
+    background-color: var(--neutral-white);
+    color: var(--primary-5-components);
+    border-radius: 24px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 24px;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.header__login-subscribe .login:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.playlist-container {
+    height: 68vh;
+    padding: 24px;
+    margin-top: 16px;
+    border-radius: 8px;
+    background: linear-gradient(160deg, rgba(107, 32, 107, 0.4), rgba(78, 0, 52, 0));
+}
+
+.welcome-message #greeting-title {
+    font-size: 32px;
+    color: var(--neutral-white);
+    margin-bottom: 16px;
+}
+
+.welcome-message .subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--neutral-gray-11);
+    margin-bottom: 24px;
+}
+
